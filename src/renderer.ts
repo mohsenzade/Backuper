@@ -26,6 +26,9 @@
  * ```
  */
 
-import './index.css';
-
-console.log('👋 This message is being logged by "renderer.js", included via webpack');
+import "./styles/Vazirmatn-RD-FD-font-face.css"
+import "./index.css";
+import "./app";
+console.log(
+  '👋 This message is being logged by "renderer.js", included via webpack'
+);

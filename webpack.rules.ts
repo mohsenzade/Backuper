@@ -28,4 +28,10 @@ export const rules: Required<ModuleOptions>['rules'] = [
       },
     },
   },
+  {
+    test: /\.(woff|woff2)$/,
+    use: {
+      loader: 'url-loader',
+    },
+  },
 ];
